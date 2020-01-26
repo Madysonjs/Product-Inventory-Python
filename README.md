@@ -97,6 +97,7 @@ Initially once the product table was created the "details" button was part of th
                     <th class="col-md">Purpose</th>
                     <th class="col-md">Results</th>
                     <th class="col-md">Use again?</th>
+                    <th class="col-md">Expand</th>
                 </tr>
                 {% for product in products %}     <!-- creates a new row for each product in the collection -->
                     <tr>
