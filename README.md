@@ -58,7 +58,8 @@ One of my main tasks required me to develop a table that allowed the user to ent
             return redirect('listHairProducts')
         context = {'product': product,} #
         return render(request, "CurlJournal/curl_delete.html", context)
-       
+ ![Product Form](https://github.com/Madysonjs/Product-Inventory/blob/master/Screenshots/Second_CRUD.PNG)
+ 
 ### Beautiful Soup Product Catalog
 I wanted to create a way for the user's to easily access a catalog they could buy products from. I was able to data scrape from a large hair care website and display the product photo and description with a link to the products web page.
 
@@ -77,6 +78,8 @@ I wanted to create a way for the user's to easily access a catalog they could bu
             products.append(product) #adds item to the array
         context={'products':products} #creates dictionary for the products to pass through templates
         return render(request,'CurlJournal/curl_products.html', context)
+ ![Beautiful Soup Results](https://github.com/Madysonjs/Product-Inventory/blob/master/Screenshots/Beautiful_Soup.PNG)
+ ![Beautiful Soup Results](https://github.com/Madysonjs/Product-Inventory/blob/master/Screenshots/Beautiful_Soup_Link.PNG)
         
 *Jump to [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Page Top](#product-inventory)*
 
@@ -117,7 +120,7 @@ Initially once the product table was created the "details" button was part of th
         </div>
         </div>
     </section>
-    
+![Product Index](https://github.com/Madysonjs/Product-Inventory/blob/master/Screenshots/Third_CRUD.PNG)    
     
 ### Details Page
 
@@ -154,5 +157,5 @@ Initially once the product table was created the "details" button was part of th
             </div>
         </div>
     </section>
-    
+![Details Page](https://github.com/Madysonjs/Product-Inventory/blob/master/Screenshots/Fourth_CRUD.PNG)
  *Jump to [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Page Top](#product-inventory)*
